@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".berita1">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="279dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/aqua" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginBottom="12dp"
+        android:text="TextView"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.56"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6"
+        tools:text="@string/berita1" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="385dp"
+        android:layout_height="288dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginRight="13dp"
+        android:text="Setelah kali pertama muncul di layar lebar lewat film Justice League, Arthur Curry alias Aquaman akan kembali kembali beraksi. Sebagai bocoran awal, trailer film solo Aquaman yang ditunggu-tunggu segera dirilis dalam waktu dekat. Untuk diketahui, Warner Bros sebelumnya sudah pernah membagikan cuplikan film superhero karya James Wan tersebut di CineEurope baru-baru ini. Mereka yang beruntung mendapat bocoran Aquaman itu sukses membuat iri jutaan orang di dunia. Berdasarkan fakta tersebut, banyak orang yang bertanya-tanya kapan trailer resmi akan ditayangkan? Situs web hiburan Variety mengatakan bahwa trailer film ini agaknya akan lebih cepat dirilis dari yang diharapkan penggemar. Ya, Aquaman bakal merilis trailer resmi dalam hitungan hari.
+
+Artikel ini telah tayang di Kompas.com dengan judul Aquaman Segera Rilis Trailer Pertama dalam Hitungan Hari, https://entertainment.kompas.com/read/2018/06/12/192014710/aquaman-segera-rilis-trailer-pertama-dalam-hitungan-hari.
+Penulis : Irfan Maullana
+Editor : Irfan Maullana"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+</android.support.constraint.ConstraintLayout>
